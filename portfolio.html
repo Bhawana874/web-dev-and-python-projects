@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhawana - developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(0, 0, 34);
+            color:white;
+            font-family: 'poppins', sans-serif;
+
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(11, 11, 69);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+            
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+           
+            color:rgb(175, 175, 255);
+            font-size: 1.06rem;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+            align-items: center;
+        }
+        .firstsection > div{
+            width: 40%;
+
+        }
+        .leftsection{
+            width:  34px;
+            font-size: 3rem;
+          
+        }
+        .rightsection img{
+    
+            width:  80%;
+            
+        }
+        .purple{
+            color: rgb(183, 122, 239);
+        }
+        #element{
+            color: rgb(183, 122, 239);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Bhawana's portfolio</div>
+            <div class="right">
+                <ul>
+                  <li><a href="/" >Home</a></li>
+                  <li><a href="/" >About</a></li>
+                  <li><a href="/" >Contact</a></li>
+
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi! My Name Is <span class="purple">Bhawana </span>
+            <div>And I am a computer science engineering student</div>
+            <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="C:\Users\bhawa\OneDrive\Desktop\New folder (2)\—Pngtree—green cartoon programmer business character_6536327 (1).png" alt="image">
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['specialized in cyber security', 'interested in web development', 'UI/UX designing', 'and, Machine Learning'],
+          typeSpeed: 50,
+        });
+      </script>
+    
+</body>
+</html>
